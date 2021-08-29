@@ -56,9 +56,11 @@ Refactoring in many cases results in more elegant, more concise code that execut
 ### Disadvantages
 
 **Limited time**
+
 Technically, if the code is already functional, it doesn't "need" to be improved. If developer capacity is stretched, refactoring adds another task to an already-lengthy list of deliverables. In that sense, refactoring may distract from other projects.
 
 **Conceptually complexity**
+
 While not a "disadvantage" per se, refactoring may require developers to develop a deeper conceptual understanding of certain concepts. For instance, in the case of the VBA Challenge, creating a "ticker index" that allowed us to bypass a nested For loop and circulate through the data just once meant conceptualizing and integrating another array. On the one hand, this array enabled greater efficiency. On the other, it added a layer of complexity that - though not a hindrance - requires that the developer have existing expertise or that they advance their understanding of software processes.
 
 ### Pros and Con's of Refactoring the VBA Script
