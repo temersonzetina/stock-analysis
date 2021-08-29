@@ -1,6 +1,7 @@
 # stock-analysis
 Learning VBA
 # Stock Analysis
+# Stock Analysis
 
 ## Overview
 <What was the purpose of this analysis?>
@@ -23,15 +24,23 @@ In summmary:
 * The remaining 9 yielded positive gains in 2017 and negative gains in 2018
 
 ### Comparing Run Times
--The original script, which involved a nested For loop:
-	> Ran the 2017 code in X seconds
-	> Ran the 2018 code in Y seconds
+The original script, which involved a nested For loop:
 
-<Image of timers>
+* Ran the 2017 code in X seconds
 
--The refactored script bypassed the nested loop and was able to produce the same information by looping through the ticker data just once:
-	> Ran the 2017 code in X seconds
-	> Ran the 2018 code in Y seconds
+![2017 Run-time (Original code)](https://github.com/temersonzetina/stock-analysis/blob/main/VBA_Challenge_2017_Original.png)
+
+* Ran the 2018 code in Y seconds
+
+![2018 Run-time (Original code)](https://github.com/temersonzetina/stock-analysis/blob/main/VBA_Challenge_2018_Original.png)
+
+The refactored script bypassed the nested loop and was able to produce the same information by looping through the ticker data just once:
+
+* Ran the 2017 code in X seconds
+![2017 Run-time (Refactored)](https://github.com/temersonzetina/stock-analysis/blob/main/VBA_Challenge_2017_Refactored.png)
+
+* Ran the 2018 code in Y seconds
+![2018 Run-time (Refactored)](https://github.com/temersonzetina/stock-analysis/blob/main/VBA_Challenge_2018_Refactored.png)
 
 ## Summary
 The process of refactoring brings with it a set of advantages and disadvantages that developers should consider before revisiting an existing project.
@@ -45,6 +54,7 @@ The process of refactoring brings with it a set of advantages and disadvantages 
 -Conceptually complex; While not a "disadvantage" per se, refactoring may also require a deeper conceptual understanding that requires the developer to deepen their skill and knowledge of essential concepts. For instance, in the case of the VBA Challenge, creating a "ticker index" that allowed us to bypass a nested For loop and circulate through the data just once meant conceptualizing another array that enables greater efficiency. This adds a layer of complexity that - though not a hindrance - does require the developer to advance their understanding of data science.
 
 <How do these pros and cons apply to refactoring the original VBS script?
+
 
 
 
