@@ -3,20 +3,18 @@ Using VBA to conduct stock market analysis for company performance in 2017 and 2
 # Stock Analysis
 
 ## Overview
-<What was the purpose of this analysis?>
 The first purpose of this analysis was to enable the viewer to quickly observe two key indicators  of performance for 12 companies that are publicly traded in the US stock market. The first indicator was "total volume," which reflected the total number of trade transactions that a given company's stock underwent in one of the two years for which there was data (2017 and 2018). The second indicator was "return," which describes a stock's return in a given year.
 
 The second purpose of this analysis was to refactor code that, though functional, included a nested loop that made the run-time needlessly lengthy.
 
 ## Results
-<Using images and examples of your code, compare the stock performance between 2017 and 2018, as well as the execution time of the original script and the refactored script>
 
 ### Comparing Yearly Yields
 Stock trade volumes and yields varied greatly between 2017 and 2018, as the comparison chart below demonstrates.
 
 ![Volume and Return Comparison](https://github.com/temersonzetina/stock-analysis/blob/main/Yearly_Volume_Return_Comparison.png)
 
-In summmary:
+In terms of comparative performance:
 
 * 2 of the 12 yielded positive gains in both 2017 and 2018 (ENPH and RUN)
 * 1 (TERP) had negative yields in both years
@@ -36,11 +34,9 @@ The original script, which involved a nested For loop:
 The refactored script bypassed the nested loop and was able to produce the same information by looping through the ticker data just once:
 
 * Ran the 2017 code in 0.16 seconds
-
 ![2017 Run-time (Refactored)](https://github.com/temersonzetina/stock-analysis/blob/main/VBA_Challenge_2017_Refactored.png)
 
 * Ran the 2018 code in 0.16 seconds
-
 ![2018 Run-time (Refactored)](https://github.com/temersonzetina/stock-analysis/blob/main/VBA_Challenge_2018_Refactored.png)
 
 ## Summary
@@ -63,6 +59,9 @@ Technically, if the code is already functional, it doesn't "need" to be improved
 **Conceptually complexity**
 While not a "disadvantage" per se, refactoring may require developers to develop a deeper conceptual understanding of certain concepts. For instance, in the case of the VBA Challenge, creating a "ticker index" that allowed us to bypass a nested For loop and circulate through the data just once meant conceptualizing and integrating another array. On the one hand, this array enabled greater efficiency. On the other, it added a layer of complexity that - though not a hindrance - requires that the developer have existing expertise or that they advance their understanding of software processes.
 
-<How do these pros and cons apply to refactoring the original VBS script?>
+### Pros and Con's of Refactoring the VBA Script
+The VBA script ran significantly faster after refactoring, each analysis taking around 1/5 the time it took during the original analysis. This seems largely due to the fact that the refactored code looped through the data worksheet just once, as opposed to twelve times as in the case of the original code.
+
+In terms of having "cleaner code," eliminating the nested for loop simplified the process of looping through the worksheet data. However, as described above, it also meant understanding how to use the ticker index variable. Figuring out how to integrate this element into phrases alongside the output arrays may have been the single most difficult challenge associated with this project. This speaks to the difficulty related to deepening one's knowledge of software processes while writing more efficient code.
 
 
