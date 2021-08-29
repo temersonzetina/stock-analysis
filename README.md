@@ -7,6 +7,8 @@ The first purpose of this analysis was to enable the viewer to quickly observe t
 
 The second purpose of this analysis was to refactor code that, though functional, included a nested loop that made the run-time needlessly lengthy.
 
+It should be noted that though the source data for this project includes performance information for 12 companies, the script should work on a much larger dataset of corporations.
+
 ## Results
 
 ### Comparing Yearly Yields
