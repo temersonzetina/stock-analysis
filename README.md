@@ -18,9 +18,9 @@ Stock trade volumes and yields varied greatly between 2017 and 2018, as the comp
 
 To summarize comparative performance:
 
-* 2 of the 12 companires yielded positive gains in both 2017 and 2018 (ENPH and RUN)
-* 1 (TERP) had negative yields in both years
-* The remaining 9 yielded positive gains in 2017 and negative gains in 2018
+* 2 of the 12 companies (ENPH and RUN) yielded positive gains in both 2017 and 2018
+* 1 company (TERP) had negative yields in both years
+* The remaining 9 companies yielded positive gains in 2017 and negative gains in 2018
 
 ### Comparing Run Times
 The original script, which involved a nested For loop:
