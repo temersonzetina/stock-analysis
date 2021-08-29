@@ -1,6 +1,6 @@
 # stock-analysis
-Learning VBA
-# Stock Analysis
+Using VBA to conduct stock market analysis for company performance in 2017 and 2018
+
 # Stock Analysis
 
 ## Overview
