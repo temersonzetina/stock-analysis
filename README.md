@@ -36,9 +36,11 @@ The original script, which involved a nested For loop:
 The refactored script bypassed the nested loop and was able to produce the same information by looping through the ticker data just once:
 
 * Ran the 2017 code in 0.16 seconds
+
 ![2017 Run-time (Refactored)](https://github.com/temersonzetina/stock-analysis/blob/main/VBA_Challenge_2017_Refactored.png)
 
 * Ran the 2018 code in 0.16 seconds
+
 ![2018 Run-time (Refactored)](https://github.com/temersonzetina/stock-analysis/blob/main/VBA_Challenge_2018_Refactored.png)
 
 ## Summary
