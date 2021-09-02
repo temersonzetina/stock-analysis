@@ -33,7 +33,7 @@ One of the key purposes of refactoring is to improve run-time. The original scri
 
 ![2018 Run-time (Original code)](https://github.com/temersonzetina/stock-analysis/blob/main/VBA_Challenge_2018_Original.png)
 
-The refactored script bypassed a nested loop from the original script and was able to produce the same information by looping through the ticker data just once:
+The refactored script bypassed a nested loop from the original script and was able to produce the same information by looping through the ticker data just once. The refactored script:
 
 * Ran the 2017 performance data in 0.16 seconds
 
